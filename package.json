@@ -1,0 +1,29 @@
+{
+  "name": "nci-static-server",
+  "version": "0.1.0",
+  "description": "Static files server for nci",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-ci/nci-static-server.git"
+  },
+  "keywords": [
+    "nciplugin",
+    "server",
+    "serve",
+    "static"
+  ],
+  "author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-ci/nci-static-server/issues"
+  },
+  "homepage": "https://github.com/node-ci/nci-static-server",
+  "dependencies": {
+    "node-static": "0.7.6",
+    "underscore": "1.8.3"
+  }
+}
