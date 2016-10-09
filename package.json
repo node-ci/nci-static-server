@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/node-ci/nci-static-server",
   "dependencies": {
-    "node-static": "0.7.6",
+    "ecstatic": "2.1.0",
     "underscore": "1.8.3"
   },
   "peerDependencies": {
