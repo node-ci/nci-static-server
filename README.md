@@ -59,9 +59,13 @@ http:
         locations:    
             - url: !!js/regexp ^/(js|css|fonts|images)/
               root: static/
-            - url: !!js/regexp ^/projects/(\w|-)+/workspace/
+            - url: !!js/regexp ^/projects/(\w|-)+/workspace(/)?
               root: data/
+#uncomment lines below to prevent directory listing
+#        options:
+#            showDir: false
 ```
 
 first location shares all required static, the second one provides access to
-content of project workspaces.
+content of project workspaces. Note that by default directory listing is
+enabled.
