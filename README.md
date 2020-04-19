@@ -2,6 +2,9 @@
 
 Static files server for [nci](https://github.com/node-ci/nci).
 
+[![Npm version](https://img.shields.io/npm/v/nci-static-server.svg)](https://www.npmjs.org/package/nci-static-server)
+[![Known Vulnerabilities](https://snyk.io/test/npm/nci-static-server/badge.svg)](https://snyk.io/test/npm/nci-static-server)
+
 
 ## Node.js compatibility
 
