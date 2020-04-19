@@ -3,6 +3,11 @@
 Static files server for [nci](https://github.com/node-ci/nci).
 
 
+## Node.js compatibility
+
+This plugin requires node.js >= 10 to work.
+
+
 ## Installation
 
 ```sh
